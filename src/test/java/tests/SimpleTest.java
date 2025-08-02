@@ -1,7 +1,7 @@
-package test.tests;
+package tests;
 
 import org.testng.annotations.Test;
-import test.base.BaseTest;
+import base.BaseTest;
 
 public class SimpleTest extends BaseTest {
     

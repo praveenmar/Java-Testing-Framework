@@ -1,8 +1,8 @@
-package test.tests;
+package tests;
 
 import framework.pages.GoogleSearchPage;
 import org.testng.annotations.Test;
-import test.base.BaseTest;
+import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;

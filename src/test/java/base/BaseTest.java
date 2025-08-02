@@ -1,4 +1,4 @@
-package test.base;
+package base;
 
 import framework.core.DriverFactory;
 import org.openqa.selenium.WebDriver;

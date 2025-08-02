@@ -1,7 +1,7 @@
-package test.tests;
+package tests;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-import test.base.BaseTest;
+import base.BaseTest;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import org.openqa.selenium.WebElement;

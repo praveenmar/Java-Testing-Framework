@@ -26,6 +26,7 @@ public class SearchFlipkart extends BaseTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
         GoogleSearchPage googleSearchPage = new GoogleSearchPage(driver);
         googleSearchPage.searchFor("flipkart");
+        
     }
 
 

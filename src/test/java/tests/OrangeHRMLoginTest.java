@@ -3,6 +3,8 @@ package tests;
 import framework.pages.OrangeHRMLoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.annotations.Listeners;
+import listeners.TestListener;
 import base.BaseTest;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,6 +16,7 @@ import java.time.Duration;
  * Demonstrates how to use Page Object Model in test classes
  * Uses explicit waits for better reliability
  */
+@Listeners(TestListener.class)
 public class OrangeHRMLoginTest extends BaseTest {
     
     // Test data constants
